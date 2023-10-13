@@ -1,0 +1,3 @@
+Prompt;Reasoning;Actions;Use_case_id
+Please book Daniel 8 hours on the project Bachelor Thesis.;All relevant parameters are already given in the prompt. Therefore only the action book_time is necessary.;"[""book_time(employee: Daniel, project: Bachelor Thesis, time: 8)""]";0
+Check all booking for Daniel. After that Please book Daniel 8 hours on the project Bachelor Thesis.;All relevant parameters are already given in the prompt. Therefore only the action book_time is necessary.;"[""read_time(employee: Daniel)"",""book_time(employee: Daniel, project: Bachelor Thesis, time: 8)""]";1

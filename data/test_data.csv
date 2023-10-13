@@ -1,0 +1,520 @@
+Use_case_id;Test_data_id;Prompt;Actions;Reasoning
+0;0;  Please book Christoph 6 hours on the project My Doctor.;"[""book_time(employee: Christoph, project: My Doctor, time: 6)""]";"1. To allocate 6 hours for Christoph on the My Doctor project, we need to book the time in the local booking database with book_time.
+2. The request to book 6 hours for Christoph on the My Doctor project in the local booking database was successful."
+0;1;"  ""Please book Christoph 6 hours on the project Railway App.""";"[""book_time(employee: Christoph, project: Railway App, time: 6)""]";"1. To allocate 6 hours for Christoph on the Railway App project, we need to book the time in the local booking database with book_time.
+2. The request to book 6 hours for Christoph on the Railway App project in the local booking database was successful."
+0;2;  Please book Daniel 8 hours on the project My Doctor.;"[""book_time(employee: Daniel, project: My Doctor, time: 8)""]";"1. To allocate 8 hours for Daniel on the My Doctor project, we need to book the time in the local booking database with book_time.
+2. The request to book 8 hours for Daniel on the My Doctor project in the local booking database was successful."
+0;3;  Please book Daniel 4 hours on the project Railway App.;"[""book_time(employee: Daniel, project: Railway App, time: 4)""]";"1. To allocate 4 hours for Daniel on the Railway App project, we need to book the time in the local booking database with book_time.
+2. The request to book 4 hours for Daniel on the Railway App project in the local booking database was successful."
+0;4;  Please book Christoph 8 hours on the project Bachelor Thesis.;"[""book_time(employee: Christoph, project: Bachelor Thesis, time: 8)""]";"1. To allocate 8 hours for Christoph on the Bachelor Thesis project, we need to book the time in the local booking database with book_time.
+2. The request to book 8 hours for Christoph on the Bachelor Thesis project in the local booking database was successful."
+0;5;  Please book Christoph 1 hours on the project AI Time.;"[""book_time(employee: Christoph, project: AI Time, time: 1)""]";"1. To allocate 1 hours for Christoph on the AI Time project, we need to book the time in the local booking database with book_time.
+2. The request to book 1 hours for Christoph on the AI Time project in the local booking database was successful."
+0;6;  Please book Dominik 5 hours on the project Railway App.;"[""book_time(employee: Dominik, project: Railway App, time: 5)""]";"1. To allocate 5 hours for Dominik on the Railway App project, we need to book the time in the local booking database with book_time.
+2. The request to book 5 hours for Dominik on the Railway App project in the local booking database was successful."
+0;7;  Please book Daniel 1 hour on the project Railway App.;"[""book_time(employee: Daniel, project: Railway App, time: 1)""]";"1. To allocate 1 hours for Daniel on the Railway App project, we need to book the time in the local booking database with book_time.
+2. The request to book 1 hours for Daniel on the Railway App project in the local booking database was successful."
+0;8;  Please book Christoph 3 hours on the project Railway App.;"[""book_time(employee: Christoph, project: Railway App, time: 3)""]";"1. To allocate 3 hours for Christoph on the Railway App project, we need to book the time in the local booking database with book_time.
+2. The request to book 3 hours for Christoph on the Railway App project in the local booking database was successful."
+0;9;  Please book Julia 4 hours on the project My Doctor.;"[""book_time(employee: Julia, project: My Doctor, time: 4)""]";"1. To allocate 4 hours for Julia on the My Doctor project, we need to book the time in the local booking database with book_time.
+2. The request to book 4 hours for Julia on the My Doctor project in the local booking database was successful."
+0;10;  Please book Christoph 1 hour on the project Railway App.;"[""book_time(employee: Christoph, project: Railway App, time: 1)""]";"1. To allocate 1 hours for Christoph on the Railway App project, we need to book the time in the local booking database with book_time.
+2. The request to book 1 hours for Christoph on the Railway App project in the local booking database was successful."
+0;11;"  The created user_request will be: ""Please book Christoph 1 hour on the project AI Time.""";"[""book_time(employee: Christoph, project: AI Time, time: 1)""]";"1. To allocate 1 hours for Christoph on the AI Time project, we need to book the time in the local booking database with book_time.
+2. The request to book 1 hours for Christoph on the AI Time project in the local booking database was successful."
+0;12;  Please book Christoph 5 hours on the project My Doctor.;"[""book_time(employee: Christoph, project: My Doctor, time: 5)""]";"1. To allocate 5 hours for Christoph on the My Doctor project, we need to book the time in the local booking database with book_time.
+2. The request to book 5 hours for Christoph on the My Doctor project in the local booking database was successful."
+0;13;  Please book Christoph 2 hours on the project Railway App.;"[""book_time(employee: Christoph, project: Railway App, time: 2)""]";"1. To allocate 2 hours for Christoph on the Railway App project, we need to book the time in the local booking database with book_time.
+2. The request to book 2 hours for Christoph on the Railway App project in the local booking database was successful."
+0;14;  Please book Julia 1 hour on the project Railway App.;"[""book_time(employee: Julia, project: Railway App, time: 1)""]";"1. To allocate 1 hours for Julia on the Railway App project, we need to book the time in the local booking database with book_time.
+2. The request to book 1 hours for Julia on the Railway App project in the local booking database was successful."
+0;15;  Please book Julia 6 hours on the project AI Time.;"[""book_time(employee: Julia, project: AI Time, time: 6)""]";"1. To allocate 6 hours for Julia on the AI Time project, we need to book the time in the local booking database with book_time.
+2. The request to book 6 hours for Julia on the AI Time project in the local booking database was successful."
+0;16;  Please book Dominik 6 hours on the project Bachelor Thesis.;"[""book_time(employee: Dominik, project: Bachelor Thesis, time: 6)""]";"1. To allocate 6 hours for Dominik on the Bachelor Thesis project, we need to book the time in the local booking database with book_time.
+2. The request to book 6 hours for Dominik on the Bachelor Thesis project in the local booking database was successful."
+0;17;  Please book Julia 8 hours on the project AI Time.;"[""book_time(employee: Julia, project: AI Time, time: 8)""]";"1. To allocate 8 hours for Julia on the AI Time project, we need to book the time in the local booking database with book_time.
+2. The request to book 8 hours for Julia on the AI Time project in the local booking database was successful."
+0;18;  Please book Daniel 4 hours on the project AI Time.;"[""book_time(employee: Daniel, project: AI Time, time: 4)""]";"1. To allocate 4 hours for Daniel on the AI Time project, we need to book the time in the local booking database with book_time.
+2. The request to book 4 hours for Daniel on the AI Time project in the local booking database was successful."
+0;19;  Please book Julia 3 hours on the project My Doctor.;"[""book_time(employee: Julia, project: My Doctor, time: 3)""]";"1. To allocate 3 hours for Julia on the My Doctor project, we need to book the time in the local booking database with book_time.
+2. The request to book 3 hours for Julia on the My Doctor project in the local booking database was successful."
+0;20;  Please book Daniel 6 hours on the project AI Time.;"[""book_time(employee: Daniel, project: AI Time, time: 6)""]";"1. To allocate 6 hours for Daniel on the AI Time project, we need to book the time in the local booking database with book_time.
+2. The request to book 6 hours for Daniel on the AI Time project in the local booking database was successful."
+0;21;   Please book Christoph 7 hours on the project My Doctor.;"[""book_time(employee: Christoph, project: My Doctor, time: 7)""]";"1. To allocate 7 hours for Christoph on the My Doctor project, we need to book the time in the local booking database with book_time.
+2. The request to book 7 hours for Christoph on the My Doctor project in the local booking database was successful."
+0;22;  Please book Daniel 7 hours on the project AI Time.;"[""book_time(employee: Daniel, project: AI Time, time: 7)""]";"1. To allocate 7 hours for Daniel on the AI Time project, we need to book the time in the local booking database with book_time.
+2. The request to book 7 hours for Daniel on the AI Time project in the local booking database was successful."
+0;23;  Please book Dominik 7 hours on the project Bachelor Thesis.;"[""book_time(employee: Dominik, project: Bachelor Thesis, time: 7)""]";"1. To allocate 7 hours for Dominik on the Bachelor Thesis project, we need to book the time in the local booking database with book_time.
+2. The request to book 7 hours for Dominik on the Bachelor Thesis project in the local booking database was successful."
+0;24;  Please book Dominik 1 hour on the project AI Time.;"[""book_time(employee: Dominik, project: AI Time, time: 1)""]";"1. To allocate 1 hours for Dominik on the AI Time project, we need to book the time in the local booking database with book_time.
+2. The request to book 1 hours for Dominik on the AI Time project in the local booking database was successful."
+0;25;  Please book Christoph 6 hours on the project Bachelor Thesis.;"[""book_time(employee: Christoph, project: Bachelor Thesis, time: 6)""]";"1. To allocate 6 hours for Christoph on the Bachelor Thesis project, we need to book the time in the local booking database with book_time.
+2. The request to book 6 hours for Christoph on the Bachelor Thesis project in the local booking database was successful."
+0;26;  Please book Daniel 3 hours on the project Railway App.;"[""book_time(employee: Daniel, project: Railway App, time: 3)""]";"1. To allocate 3 hours for Daniel on the Railway App project, we need to book the time in the local booking database with book_time.
+2. The request to book 3 hours for Daniel on the Railway App project in the local booking database was successful."
+0;27;  Please book Julia 6 hours on the project My Doctor.;"[""book_time(employee: Julia, project: My Doctor, time: 6)""]";"1. To allocate 6 hours for Julia on the My Doctor project, we need to book the time in the local booking database with book_time.
+2. The request to book 6 hours for Julia on the My Doctor project in the local booking database was successful."
+0;28;  Please book Julia 8 hours on the project AI Time.;"[""book_time(employee: Julia, project: AI Time, time: 8)""]";"1. To allocate 8 hours for Julia on the AI Time project, we need to book the time in the local booking database with book_time.
+2. The request to book 8 hours for Julia on the AI Time project in the local booking database was successful."
+0;29;  Please book Dominik 5 hours on the project My Doctor.;"[""book_time(employee: Dominik, project: My Doctor, time: 5)""]";"1. To allocate 5 hours for Dominik on the My Doctor project, we need to book the time in the local booking database with book_time.
+2. The request to book 5 hours for Dominik on the My Doctor project in the local booking database was successful."
+0;30;  Please book Julia 1 hour on the project Railway App.;"[""book_time(employee: Julia, project: Railway App, time: 1)""]";"1. To allocate 1 hours for Julia on the Railway App project, we need to book the time in the local booking database with book_time.
+2. The request to book 1 hours for Julia on the Railway App project in the local booking database was successful."
+0;31;  Please book Christoph 8 hours on the project Bachelor Thesis.;"[""book_time(employee: Christoph, project: Bachelor Thesis, time: 8)""]";"1. To allocate 8 hours for Christoph on the Bachelor Thesis project, we need to book the time in the local booking database with book_time.
+2. The request to book 8 hours for Christoph on the Bachelor Thesis project in the local booking database was successful."
+0;32;  Please book Dominik 4 hours on the project AI Time.;"[""book_time(employee: Dominik, project: AI Time, time: 4)""]";"1. To allocate 4 hours for Dominik on the AI Time project, we need to book the time in the local booking database with book_time.
+2. The request to book 4 hours for Dominik on the AI Time project in the local booking database was successful."
+0;33;  Please book Christoph 2 hours on the project AI Time.;"[""book_time(employee: Christoph, project: AI Time, time: 2)""]";"1. To allocate 2 hours for Christoph on the AI Time project, we need to book the time in the local booking database with book_time.
+2. The request to book 2 hours for Christoph on the AI Time project in the local booking database was successful."
+0;34;  Please book Christoph 7 hours on the project Bachelor Thesis.;"[""book_time(employee: Christoph, project: Bachelor Thesis, time: 7)""]";"1. To allocate 7 hours for Christoph on the Bachelor Thesis project, we need to book the time in the local booking database with book_time.
+2. The request to book 7 hours for Christoph on the Bachelor Thesis project in the local booking database was successful."
+0;35;  Please book Julia 2 hours on the project Railway App.;"[""book_time(employee: Julia, project: Railway App, time: 2)""]";"1. To allocate 2 hours for Julia on the Railway App project, we need to book the time in the local booking database with book_time.
+2. The request to book 2 hours for Julia on the Railway App project in the local booking database was successful."
+0;36;  Please book Dominik 1 hour on the project Bachelor Thesis.;"[""book_time(employee: Dominik, project: Bachelor Thesis, time: 1)""]";"1. To allocate 1 hours for Dominik on the Bachelor Thesis project, we need to book the time in the local booking database with book_time.
+2. The request to book 1 hours for Dominik on the Bachelor Thesis project in the local booking database was successful."
+0;37;  Please book Dominik 1 hour on the project My Doctor.;"[""book_time(employee: Dominik, project: My Doctor, time: 1)""]";"1. To allocate 1 hours for Dominik on the My Doctor project, we need to book the time in the local booking database with book_time.
+2. The request to book 1 hours for Dominik on the My Doctor project in the local booking database was successful."
+0;38;  Please book Julia 6 hours on the project My Doctor.;"[""book_time(employee: Julia, project: My Doctor, time: 6)""]";"1. To allocate 6 hours for Julia on the My Doctor project, we need to book the time in the local booking database with book_time.
+2. The request to book 6 hours for Julia on the My Doctor project in the local booking database was successful."
+0;39;  Please book Daniel 1 hour on the project Railway App.;"[""book_time(employee: Daniel, project: Railway App, time: 1)""]";"1. To allocate 1 hours for Daniel on the Railway App project, we need to book the time in the local booking database with book_time.
+2. The request to book 1 hours for Daniel on the Railway App project in the local booking database was successful."
+0;40;  Please book Julia 7 hours on the project Bachelor Thesis.;"[""book_time(employee: Julia, project: Bachelor Thesis, time: 7)""]";"1. To allocate 7 hours for Julia on the Bachelor Thesis project, we need to book the time in the local booking database with book_time.
+2. The request to book 7 hours for Julia on the Bachelor Thesis project in the local booking database was successful."
+0;41;  Please book Daniel 1 hour on the project AI Time.;"[""book_time(employee: Daniel, project: AI Time, time: 1)""]";"1. To allocate 1 hours for Daniel on the AI Time project, we need to book the time in the local booking database with book_time.
+2. The request to book 1 hours for Daniel on the AI Time project in the local booking database was successful."
+0;42;  Please book Christoph 7 hours on the project AI Time.;"[""book_time(employee: Christoph, project: AI Time, time: 7)""]";"1. To allocate 7 hours for Christoph on the AI Time project, we need to book the time in the local booking database with book_time.
+2. The request to book 7 hours for Christoph on the AI Time project in the local booking database was successful."
+0;43;  Please book Daniel 5 hours on the project Bachelor Thesis.;"[""book_time(employee: Daniel, project: Bachelor Thesis, time: 5)""]";"1. To allocate 5 hours for Daniel on the Bachelor Thesis project, we need to book the time in the local booking database with book_time.
+2. The request to book 5 hours for Daniel on the Bachelor Thesis project in the local booking database was successful."
+0;44;  Please book Christoph 6 hours on the project AI Time.;"[""book_time(employee: Christoph, project: AI Time, time: 6)""]";"1. To allocate 6 hours for Christoph on the AI Time project, we need to book the time in the local booking database with book_time.
+2. The request to book 6 hours for Christoph on the AI Time project in the local booking database was successful."
+0;45;  Please book Julia 7 hours on the project Bachelor Thesis.;"[""book_time(employee: Julia, project: Bachelor Thesis, time: 7)""]";"1. To allocate 7 hours for Julia on the Bachelor Thesis project, we need to book the time in the local booking database with book_time.
+2. The request to book 7 hours for Julia on the Bachelor Thesis project in the local booking database was successful."
+0;46;  Please book Daniel 3 hours on the project Bachelor Thesis.;"[""book_time(employee: Daniel, project: Bachelor Thesis, time: 3)""]";"1. To allocate 3 hours for Daniel on the Bachelor Thesis project, we need to book the time in the local booking database with book_time.
+2. The request to book 3 hours for Daniel on the Bachelor Thesis project in the local booking database was successful."
+0;47;  Please book Daniel 7 hours on the project My Doctor.;"[""book_time(employee: Daniel, project: My Doctor, time: 7)""]";"1. To allocate 7 hours for Daniel on the My Doctor project, we need to book the time in the local booking database with book_time.
+2. The request to book 7 hours for Daniel on the My Doctor project in the local booking database was successful."
+0;48;"  The user_request can be created as follows: 
+
+""Please book Daniel 6 hours on the project My Doctor.""";"[""book_time(employee: Daniel, project: My Doctor, time: 6)""]";"1. To allocate 6 hours for Daniel on the My Doctor project, we need to book the time in the local booking database with book_time.
+2. The request to book 6 hours for Daniel on the My Doctor project in the local booking database was successful."
+0;49;  Please book Julia 2 hours on the project Bachelor Thesis.;"[""book_time(employee: Julia, project: Bachelor Thesis, time: 2)""]";"1. To allocate 2 hours for Julia on the Bachelor Thesis project, we need to book the time in the local booking database with book_time.
+2. The request to book 2 hours for Julia on the Bachelor Thesis project in the local booking database was successful."
+1;50;"  ""Check all bookings for Julia. After that, please book Julia 7 hours on the project AI Time.""";"[""read_time(employee: Julia)"",""book_time(employee: Julia, project: AI Time, time: 7)""]";"1. To retrieve all bookings made by Julia, we can use the read_time tool with Julia as the employee parameter. Then, we can allocate 7 hours for Julia on the AI Time project using the book_time tool.
+2. To allocate 7 hours for Julia on the AI Time project, we need to book the time in the local booking database"
+1;51;"  {
+  ""action"": ""create_user_request"",
+  ""parameters"": {
+    ""employee"": ""Daniel"",
+    ""time"": ""3"",
+    ""project"": ""My Doctor""
+  },
+  ""message"": ""Check all bookings for Daniel. After that, please book Daniel 3 hours on the project My Doctor  .""
+}";"[""read_time(employee: Daniel)"",""book_time(employee: Daniel, project: My Doctor, time: 3)""]";"1. To retrieve all bookings made by Daniel, we can use the read_time tool with Daniel as the employee parameter. Then, we can allocate 3 hours for Daniel on the My Doctor project using the book_time tool.
+2. To allocate 3 hours for Daniel on the My Doctor project, we need to book the time in the local booking database"
+1;52;"  The generated user_request based on the given actions would be:
+
+""Check all bookings for Daniel. After that, please book Daniel 8 hours on the project Railway App.""";"[""read_time(employee: Daniel)"",""book_time(employee: Daniel, project: Railway App, time: 8)""]";"1. To retrieve all bookings made by Daniel, we can use the read_time tool with Daniel as the employee parameter. Then, we can allocate 8 hours for Daniel on the Railway App project using the book_time tool.
+2. To allocate 8 hours for Daniel on the Railway App project, we need to book the time in the local booking database"
+1;53;"  User_request: ""Check all bookings for Dominik. After that please book Dominik 3 hours on the project Railway App.""";"[""read_time(employee: Dominik)"",""book_time(employee: Dominik, project: Railway App, time: 3)""]";"1. To retrieve all bookings made by Dominik, we can use the read_time tool with Dominik as the employee parameter. Then, we can allocate 3 hours for Dominik on the Railway App project using the book_time tool.
+2. To allocate 3 hours for Dominik on the Railway App project, we need to book the time in the local booking database"
+1;54;"  user_request = ""Check all bookings for Dominik. After that, please book Dominik 4 hours on the project My Doctor.""";"[""read_time(employee: Dominik)"",""book_time(employee: Dominik, project: My Doctor, time: 4)""]";"1. To retrieve all bookings made by Dominik, we can use the read_time tool with Dominik as the employee parameter. Then, we can allocate 4 hours for Dominik on the My Doctor project using the book_time tool.
+2. To allocate 4 hours for Dominik on the My Doctor project, we need to book the time in the local booking database"
+1;55;"  User request:
+
+""Check all bookings for Julia. After that, please book Julia 3 hours on the project AI Time.""";"[""read_time(employee: Julia)"",""book_time(employee: Julia, project: AI Time, time: 3)""]";"1. To retrieve all bookings made by Julia, we can use the read_time tool with Julia as the employee parameter. Then, we can allocate 3 hours for Julia on the AI Time project using the book_time tool.
+2. To allocate 3 hours for Julia on the AI Time project, we need to book the time in the local booking database"
+1;56;"  user_request: ""Check all bookings for Daniel. After that, please book Daniel 6 hours on the project My Doctor.""";"[""read_time(employee: Daniel)"",""book_time(employee: Daniel, project: My Doctor, time: 6)""]";"1. To retrieve all bookings made by Daniel, we can use the read_time tool with Daniel as the employee parameter. Then, we can allocate 6 hours for Daniel on the My Doctor project using the book_time tool.
+2. To allocate 6 hours for Daniel on the My Doctor project, we need to book the time in the local booking database"
+1;57;"  user_request = ""Check all bookings for Daniel. After that please book Daniel 5 hours on the project My Doctor.""";"[""read_time(employee: Daniel)"",""book_time(employee: Daniel, project: My Doctor, time: 5)""]";"1. To retrieve all bookings made by Daniel, we can use the read_time tool with Daniel as the employee parameter. Then, we can allocate 5 hours for Daniel on the My Doctor project using the book_time tool.
+2. To allocate 5 hours for Daniel on the My Doctor project, we need to book the time in the local booking database"
+1;58;"  User_request: ""Check all bookings for Julia. After that, please book Julia 7 hours on the project Railway App.""";"[""read_time(employee: Julia)"",""book_time(employee: Julia, project: Railway App, time: 7)""]";"1. To retrieve all bookings made by Julia, we can use the read_time tool with Julia as the employee parameter. Then, we can allocate 7 hours for Julia on the Railway App project using the book_time tool.
+2. To allocate 7 hours for Julia on the Railway App project, we need to book the time in the local booking database"
+1;59;"  Create a user_request with the following information: ""Check all bookings for Julia. After that, please book Julia 6 hours on the project Railway App.""";"[""read_time(employee: Julia)"",""book_time(employee: Julia, project: Railway App, time: 6)""]";"1. To retrieve all bookings made by Julia, we can use the read_time tool with Julia as the employee parameter. Then, we can allocate 6 hours for Julia on the Railway App project using the book_time tool.
+2. To allocate 6 hours for Julia on the Railway App project, we need to book the time in the local booking database"
+1;60;"  A possible user_request based on the given actions could be:
+""Check all bookings for Julia. After that, please book Julia 6 hours on the project My Doctor.""";"[""read_time(employee: Julia)"",""book_time(employee: Julia, project: My Doctor, time: 6)""]";"1. To retrieve all bookings made by Julia, we can use the read_time tool with Julia as the employee parameter. Then, we can allocate 6 hours for Julia on the My Doctor project using the book_time tool.
+2. To allocate 6 hours for Julia on the My Doctor project, we need to book the time in the local booking database"
+1;61;"  user_request: ""Check all bookings for Dominik. After that, please book Dominik 5 hours on the project AI Time.""";"[""read_time(employee: Dominik)"",""book_time(employee: Dominik, project: AI Time, time: 5)""]";"1. To retrieve all bookings made by Dominik, we can use the read_time tool with Dominik as the employee parameter. Then, we can allocate 5 hours for Dominik on the AI Time project using the book_time tool.
+2. To allocate 5 hours for Dominik on the AI Time project, we need to book the time in the local booking database"
+1;62;"  ""Check all bookings for Daniel. After that, please book Daniel 7 hours on the project My Doctor.""";"[""read_time(employee: Daniel)"",""book_time(employee: Daniel, project: My Doctor, time: 7)""]";"1. To retrieve all bookings made by Daniel, we can use the read_time tool with Daniel as the employee parameter. Then, we can allocate 7 hours for Daniel on the My Doctor project using the book_time tool.
+2. To allocate 7 hours for Daniel on the My Doctor project, we need to book the time in the local booking database"
+1;63;"  user_request: {
+  ""action"": ""check_bookings"",
+  ""employee"": ""Dominik""
+}
+
+or
+
+user_request: {
+  ""action"": ""book_time"",
+  ""employee"": ""Dominik"",
+  ""time"": 3,
+  ""project"": ""My Doctor""
+}";"[""read_time(employee: Dominik)"",""book_time(employee: Dominik, project: My Doctor, time: 3)""]";"1. To retrieve all bookings made by Dominik, we can use the read_time tool with Dominik as the employee parameter. Then, we can allocate 3 hours for Dominik on the My Doctor project using the book_time tool.
+2. To allocate 3 hours for Dominik on the My Doctor project, we need to book the time in the local booking database"
+1;64;"  User Request: 
+
+Check all bookings for Dominik. 
+After that, please book Dominik 1 hour on the project Railway App.";"[""read_time(employee: Dominik)"",""book_time(employee: Dominik, project: Railway App, time: 1)""]";"1. To retrieve all bookings made by Dominik, we can use the read_time tool with Dominik as the employee parameter. Then, we can allocate 1 hours for Dominik on the Railway App project using the book_time tool.
+2. To allocate 1 hours for Dominik on the Railway App project, we need to book the time in the local booking database"
+1;65;"  ""user_request"": ""Check all bookings for Daniel. After that, please book Daniel 8 hours on the project Railway App.""";"[""read_time(employee: Daniel)"",""book_time(employee: Daniel, project: Railway App, time: 8)""]";"1. To retrieve all bookings made by Daniel, we can use the read_time tool with Daniel as the employee parameter. Then, we can allocate 8 hours for Daniel on the Railway App project using the book_time tool.
+2. To allocate 8 hours for Daniel on the Railway App project, we need to book the time in the local booking database"
+1;66;"  Based on the given actions, the user_request can be created as follows:
+
+""Check all bookings for Daniel. After that, please book Daniel 3 hours on the project Railway App.""";"[""read_time(employee: Daniel)"",""book_time(employee: Daniel, project: Railway App, time: 3)""]";"1. To retrieve all bookings made by Daniel, we can use the read_time tool with Daniel as the employee parameter. Then, we can allocate 3 hours for Daniel on the Railway App project using the book_time tool.
+2. To allocate 3 hours for Daniel on the Railway App project, we need to book the time in the local booking database"
+1;67;  Check all bookings for Dominik. After that, please book Dominik 1 hour on the project Railway App.;"[""read_time(employee: Dominik)"",""book_time(employee: Dominik, project: Railway App, time: 1)""]";"1. To retrieve all bookings made by Dominik, we can use the read_time tool with Dominik as the employee parameter. Then, we can allocate 1 hours for Dominik on the Railway App project using the book_time tool.
+2. To allocate 1 hours for Dominik on the Railway App project, we need to book the time in the local booking database"
+1;68;"  user_request: ""Check all bookings for Daniel. After that please book Daniel 1 hour on the project Railway App.""";"[""read_time(employee: Daniel)"",""book_time(employee: Daniel, project: Railway App, time: 1)""]";"1. To retrieve all bookings made by Daniel, we can use the read_time tool with Daniel as the employee parameter. Then, we can allocate 1 hours for Daniel on the Railway App project using the book_time tool.
+2. To allocate 1 hours for Daniel on the Railway App project, we need to book the time in the local booking database"
+1;69;"  User_request: ""Check all bookings for Christoph. After that, please book Christoph 6 hours on the project Railway App.""";"[""read_time(employee: Christoph)"",""book_time(employee: Christoph, project: Railway App, time: 6)""]";"1. To retrieve all bookings made by Christoph, we can use the read_time tool with Christoph as the employee parameter. Then, we can allocate 6 hours for Christoph on the Railway App project using the book_time tool.
+2. To allocate 6 hours for Christoph on the Railway App project, we need to book the time in the local booking database"
+1;70;"  {""user_request"": ""Check all bookings for Julia. After that please book Julia 5 hours on the project My Doctor.""}";"[""read_time(employee: Julia)"",""book_time(employee: Julia, project: My Doctor, time: 5)""]";"1. To retrieve all bookings made by Julia, we can use the read_time tool with Julia as the employee parameter. Then, we can allocate 5 hours for Julia on the My Doctor project using the book_time tool.
+2. To allocate 5 hours for Julia on the My Doctor project, we need to book the time in the local booking database"
+1;71;"  user_request = ""Check all bookings for Christoph. After that, please book Christoph 3 hours on the project My Doctor.""";"[""read_time(employee: Christoph)"",""book_time(employee: Christoph, project: My Doctor, time: 3)""]";"1. To retrieve all bookings made by Christoph, we can use the read_time tool with Christoph as the employee parameter. Then, we can allocate 3 hours for Christoph on the My Doctor project using the book_time tool.
+2. To allocate 3 hours for Christoph on the My Doctor project, we need to book the time in the local booking database"
+1;72;  User_request: Check all bookings for Christoph. After that, please book Christoph 7 hours on the project Bachelor Thesis.;"[""read_time(employee: Christoph)"",""book_time(employee: Christoph, project: Bachelor Thesis, time: 7)""]";"1. To retrieve all bookings made by Christoph, we can use the read_time tool with Christoph as the employee parameter. Then, we can allocate 7 hours for Christoph on the Bachelor Thesis project using the book_time tool.
+2. To allocate 7 hours for Christoph on the Bachelor Thesis project, we need to book the time in the local booking database"
+1;73;"  Based on these actions, the corresponding user request can be created as follows:
+
+User Request: Check all bookings for Christoph. After that, please book Christoph 7 hours on the project AI Time.";"[""read_time(employee: Christoph)"",""book_time(employee: Christoph, project: AI Time, time: 7)""]";"1. To retrieve all bookings made by Christoph, we can use the read_time tool with Christoph as the employee parameter. Then, we can allocate 7 hours for Christoph on the AI Time project using the book_time tool.
+2. To allocate 7 hours for Christoph on the AI Time project, we need to book the time in the local booking database"
+1;74;"  User_request : ""Check all bookings for Christoph. After that, please book Christoph 6 hours on the project My Doctor.""";"[""read_time(employee: Christoph)"",""book_time(employee: Christoph, project: My Doctor, time: 6)""]";"1. To retrieve all bookings made by Christoph, we can use the read_time tool with Christoph as the employee parameter. Then, we can allocate 6 hours for Christoph on the My Doctor project using the book_time tool.
+2. To allocate 6 hours for Christoph on the My Doctor project, we need to book the time in the local booking database"
+1;75;"  User_request: ""Check all bookings for Julia. After that, please book Julia 6 hours on the project Railway App.""";"[""read_time(employee: Julia)"",""book_time(employee: Julia, project: Railway App, time: 6)""]";"1. To retrieve all bookings made by Julia, we can use the read_time tool with Julia as the employee parameter. Then, we can allocate 6 hours for Julia on the Railway App project using the book_time tool.
+2. To allocate 6 hours for Julia on the Railway App project, we need to book the time in the local booking database"
+1;76;"  user_request: ""Check all bookings for Christoph. After that, please book Christoph 3 hours on the project My Doctor.""";"[""read_time(employee: Christoph)"",""book_time(employee: Christoph, project: My Doctor, time: 3)""]";"1. To retrieve all bookings made by Christoph, we can use the read_time tool with Christoph as the employee parameter. Then, we can allocate 3 hours for Christoph on the My Doctor project using the book_time tool.
+2. To allocate 3 hours for Christoph on the My Doctor project, we need to book the time in the local booking database"
+1;77;"  User request: ""Check all bookings for Julia. After that, please book Julia 2 hours on the project Bachelor Thesis.""";"[""read_time(employee: Julia)"",""book_time(employee: Julia, project: Bachelor Thesis, time: 2)""]";"1. To retrieve all bookings made by Julia, we can use the read_time tool with Julia as the employee parameter. Then, we can allocate 2 hours for Julia on the Bachelor Thesis project using the book_time tool.
+2. To allocate 2 hours for Julia on the Bachelor Thesis project, we need to book the time in the local booking database"
+1;78;"  ""Check all bookings for Daniel. After that please book Daniel 3 hours on the project AI Time.""";"[""read_time(employee: Daniel)"",""book_time(employee: Daniel, project: AI Time, time: 3)""]";"1. To retrieve all bookings made by Daniel, we can use the read_time tool with Daniel as the employee parameter. Then, we can allocate 3 hours for Daniel on the AI Time project using the book_time tool.
+2. To allocate 3 hours for Daniel on the AI Time project, we need to book the time in the local booking database"
+1;79;"  user_request = ""Check all bookings for Julia. After that Please book Julia 1 hour on the project AI Time.""";"[""read_time(employee: Julia)"",""book_time(employee: Julia, project: AI Time, time: 1)""]";"1. To retrieve all bookings made by Julia, we can use the read_time tool with Julia as the employee parameter. Then, we can allocate 1 hours for Julia on the AI Time project using the book_time tool.
+2. To allocate 1 hours for Julia on the AI Time project, we need to book the time in the local booking database"
+1;80;  User Request: Check all bookings for Christoph. After that, please book Christoph 7 hours on the project AI Time.;"[""read_time(employee: Christoph)"",""book_time(employee: Christoph, project: AI Time, time: 7)""]";"1. To retrieve all bookings made by Christoph, we can use the read_time tool with Christoph as the employee parameter. Then, we can allocate 7 hours for Christoph on the AI Time project using the book_time tool.
+2. To allocate 7 hours for Christoph on the AI Time project, we need to book the time in the local booking database"
+1;81;"  user_request: ""Check all bookings for Christoph. After that Please book Christoph 2 hours on the project My Doctor.""";"[""read_time(employee: Christoph)"",""book_time(employee: Christoph, project: My Doctor, time: 2)""]";"1. To retrieve all bookings made by Christoph, we can use the read_time tool with Christoph as the employee parameter. Then, we can allocate 2 hours for Christoph on the My Doctor project using the book_time tool.
+2. To allocate 2 hours for Christoph on the My Doctor project, we need to book the time in the local booking database"
+1;82;"  User Request: ""Check all bookings for Christoph. After that, please book Christoph 8 hours on the project My Doctor.""";"[""read_time(employee: Christoph)"",""book_time(employee: Christoph, project: My Doctor, time: 8)""]";"1. To retrieve all bookings made by Christoph, we can use the read_time tool with Christoph as the employee parameter. Then, we can allocate 8 hours for Christoph on the My Doctor project using the book_time tool.
+2. To allocate 8 hours for Christoph on the My Doctor project, we need to book the time in the local booking database"
+1;83;"  user_request = ""Check all bookings for Christoph. After that, please book Christoph 7 hours on the project My Doctor.""";"[""read_time(employee: Christoph)"",""book_time(employee: Christoph, project: My Doctor, time: 7)""]";"1. To retrieve all bookings made by Christoph, we can use the read_time tool with Christoph as the employee parameter. Then, we can allocate 7 hours for Christoph on the My Doctor project using the book_time tool.
+2. To allocate 7 hours for Christoph on the My Doctor project, we need to book the time in the local booking database"
+1;84;"  User_request: ""Check all bookings for Julia. After that, please book Julia 8 hours on the project Railway App.""";"[""read_time(employee: Julia)"",""book_time(employee: Julia, project: Railway App, time: 8)""]";"1. To retrieve all bookings made by Julia, we can use the read_time tool with Julia as the employee parameter. Then, we can allocate 8 hours for Julia on the Railway App project using the book_time tool.
+2. To allocate 8 hours for Julia on the Railway App project, we need to book the time in the local booking database"
+1;85;  User_request: Check all bookings for Julia. After that, please book Julia 5 hours on the project AI Time.;"[""read_time(employee: Julia)"",""book_time(employee: Julia, project: AI Time, time: 5)""]";"1. To retrieve all bookings made by Julia, we can use the read_time tool with Julia as the employee parameter. Then, we can allocate 5 hours for Julia on the AI Time project using the book_time tool.
+2. To allocate 5 hours for Julia on the AI Time project, we need to book the time in the local booking database"
+1;86;"  User_request: ""Check all bookings for Christoph. After that Please book Christoph 5 hours on the project Railway App.""";"[""read_time(employee: Christoph)"",""book_time(employee: Christoph, project: Railway App, time: 5)""]";"1. To retrieve all bookings made by Christoph, we can use the read_time tool with Christoph as the employee parameter. Then, we can allocate 5 hours for Christoph on the Railway App project using the book_time tool.
+2. To allocate 5 hours for Christoph on the Railway App project, we need to book the time in the local booking database"
+1;87;"  user_request = ""Check all bookings for Daniel. After that, please book Daniel 8 hours on the project AI Time.""";"[""read_time(employee: Daniel)"",""book_time(employee: Daniel, project: AI Time, time: 8)""]";"1. To retrieve all bookings made by Daniel, we can use the read_time tool with Daniel as the employee parameter. Then, we can allocate 8 hours for Daniel on the AI Time project using the book_time tool.
+2. To allocate 8 hours for Daniel on the AI Time project, we need to book the time in the local booking database"
+1;88;"  User_request: ""Check all bookings for Dominik. After that, please book Dominik 1 hour on the project Railway App.""";"[""read_time(employee: Dominik)"",""book_time(employee: Dominik, project: Railway App, time: 1)""]";"1. To retrieve all bookings made by Dominik, we can use the read_time tool with Dominik as the employee parameter. Then, we can allocate 1 hours for Dominik on the Railway App project using the book_time tool.
+2. To allocate 1 hours for Dominik on the Railway App project, we need to book the time in the local booking database"
+1;89;"  user_request = ""Check all bookings for Julia. After that, please book Julia 3 hours on the project Railway App.""";"[""read_time(employee: Julia)"",""book_time(employee: Julia, project: Railway App, time: 3)""]";"1. To retrieve all bookings made by Julia, we can use the read_time tool with Julia as the employee parameter. Then, we can allocate 3 hours for Julia on the Railway App project using the book_time tool.
+2. To allocate 3 hours for Julia on the Railway App project, we need to book the time in the local booking database"
+1;90;"  user_request = ""Check all bookings for Daniel. After that, please book Daniel 8 hours on the project Bachelor Thesis.""";"[""read_time(employee: Daniel)"",""book_time(employee: Daniel, project: Bachelor Thesis, time: 8)""]";"1. To retrieve all bookings made by Daniel, we can use the read_time tool with Daniel as the employee parameter. Then, we can allocate 8 hours for Daniel on the Bachelor Thesis project using the book_time tool.
+2. To allocate 8 hours for Daniel on the Bachelor Thesis project, we need to book the time in the local booking database"
+1;91;"  user_request = ""Check all bookings for Christoph. After that, please book Christoph 2 hours on the project My Doctor.""";"[""read_time(employee: Christoph)"",""book_time(employee: Christoph, project: My Doctor, time: 2)""]";"1. To retrieve all bookings made by Christoph, we can use the read_time tool with Christoph as the employee parameter. Then, we can allocate 2 hours for Christoph on the My Doctor project using the book_time tool.
+2. To allocate 2 hours for Christoph on the My Doctor project, we need to book the time in the local booking database"
+1;92;"  User_request: ""Check all bookings for Christoph. After that, please book Christoph 6 hours on the project Railway App.""";"[""read_time(employee: Christoph)"",""book_time(employee: Christoph, project: Railway App, time: 6)""]";"1. To retrieve all bookings made by Christoph, we can use the read_time tool with Christoph as the employee parameter. Then, we can allocate 6 hours for Christoph on the Railway App project using the book_time tool.
+2. To allocate 6 hours for Christoph on the Railway App project, we need to book the time in the local booking database"
+1;93;"  user_request: ""Check all bookings for Julia. After that, please book Julia 4 hours on the project My Doctor.""";"[""read_time(employee: Julia)"",""book_time(employee: Julia, project: My Doctor, time: 4)""]";"1. To retrieve all bookings made by Julia, we can use the read_time tool with Julia as the employee parameter. Then, we can allocate 4 hours for Julia on the My Doctor project using the book_time tool.
+2. To allocate 4 hours for Julia on the My Doctor project, we need to book the time in the local booking database"
+1;94;"  user_request: ""Check all bookings for Dominik. After that, please book Dominik 4 hours on the project Railway App.""";"[""read_time(employee: Dominik)"",""book_time(employee: Dominik, project: Railway App, time: 4)""]";"1. To retrieve all bookings made by Dominik, we can use the read_time tool with Dominik as the employee parameter. Then, we can allocate 4 hours for Dominik on the Railway App project using the book_time tool.
+2. To allocate 4 hours for Dominik on the Railway App project, we need to book the time in the local booking database"
+1;95;"  user_request = ""Check all bookings for Daniel. After that Please book Daniel 7 hours on the project Railway App.""";"[""read_time(employee: Daniel)"",""book_time(employee: Daniel, project: Railway App, time: 7)""]";"1. To retrieve all bookings made by Daniel, we can use the read_time tool with Daniel as the employee parameter. Then, we can allocate 7 hours for Daniel on the Railway App project using the book_time tool.
+2. To allocate 7 hours for Daniel on the Railway App project, we need to book the time in the local booking database"
+1;96;"  User_request: ""Check all bookings for Daniel. After that, please book Daniel 2 hours on the project My Doctor.""";"[""read_time(employee: Daniel)"",""book_time(employee: Daniel, project: My Doctor, time: 2)""]";"1. To retrieve all bookings made by Daniel, we can use the read_time tool with Daniel as the employee parameter. Then, we can allocate 2 hours for Daniel on the My Doctor project using the book_time tool.
+2. To allocate 2 hours for Daniel on the My Doctor project, we need to book the time in the local booking database"
+1;97;"  Based on these actions: [""read_time(employee: Christoph)"",""book_time(employee: Christoph, project: Bachelor Thesis, time: 4)""], the user_request can be created as follows:
+
+User_request: 
+
+Check all bookings for Christoph. After that, please book Christoph 4 hours on the project Bachelor Thesis.";"[""read_time(employee: Christoph)"",""book_time(employee: Christoph, project: Bachelor Thesis, time: 4)""]";"1. To retrieve all bookings made by Christoph, we can use the read_time tool with Christoph as the employee parameter. Then, we can allocate 4 hours for Christoph on the Bachelor Thesis project using the book_time tool.
+2. To allocate 4 hours for Christoph on the Bachelor Thesis project, we need to book the time in the local booking database"
+1;98;  User_request: Check all bookings for Daniel. After that, please book Daniel 5 hours on the project My Doctor.;"[""read_time(employee: Daniel)"",""book_time(employee: Daniel, project: My Doctor, time: 5)""]";"1. To retrieve all bookings made by Daniel, we can use the read_time tool with Daniel as the employee parameter. Then, we can allocate 5 hours for Daniel on the My Doctor project using the book_time tool.
+2. To allocate 5 hours for Daniel on the My Doctor project, we need to book the time in the local booking database"
+1;99;"  ""Check all bookings for Daniel. After that, please book Daniel 6 hours on the project Railway App.""";"[""read_time(employee: Daniel)"",""book_time(employee: Daniel, project: Railway App, time: 6)""]";"1. To retrieve all bookings made by Daniel, we can use the read_time tool with Daniel as the employee parameter. Then, we can allocate 6 hours for Daniel on the Railway App project using the book_time tool.
+2. To allocate 6 hours for Daniel on the Railway App project, we need to book the time in the local booking database"
+2;100;"  The user_request created based on the given action would be: ""Please delete all entries made for Julia on the Railway App project.""";"[""delete_time(employee: Julia, project: Railway App)""]";1. To remove all records associated with Julia from the Railway App project, we can use the delete_time tool with the appropriate parameters.
+2;101;  Please delete all entries made for Daniel on the AI Time project.;"[""delete_time(employee: Daniel, project: AI Time)""]";1. To remove all records associated with Daniel from the AI Time project, we can use the delete_time tool with the appropriate parameters.
+2;102;  Please delete all entries made for Christoph on the AI Time project.;"[""delete_time(employee: Christoph, project: AI Time)""]";1. To remove all records associated with Christoph from the AI Time project, we can use the delete_time tool with the appropriate parameters.
+2;103;  Please delete all entries made for Christoph on the Bachelor Thesis project.;"[""delete_time(employee: Christoph, project: Bachelor Thesis)""]";1. To remove all records associated with Christoph from the Bachelor Thesis project, we can use the delete_time tool with the appropriate parameters.
+2;104;  Please delete all entries made for Julia on the My Doctor project.;"[""delete_time(employee: Julia, project: My Doctor)""]";1. To remove all records associated with Julia from the My Doctor project, we can use the delete_time tool with the appropriate parameters.
+2;105;  Please delete all entries made for Daniel on the Railway App project.;"[""delete_time(employee: Daniel, project: Railway App)""]";1. To remove all records associated with Daniel from the Railway App project, we can use the delete_time tool with the appropriate parameters.
+2;106;  Please delete all entries made for Daniel on the Bachelor Thesis project.;"[""delete_time(employee: Daniel, project: Bachelor Thesis)""]";1. To remove all records associated with Daniel from the Bachelor Thesis project, we can use the delete_time tool with the appropriate parameters.
+2;107;  Please delete all entries made for Dominik on the My Doctor project.;"[""delete_time(employee: Dominik, project: My Doctor)""]";1. To remove all records associated with Dominik from the My Doctor project, we can use the delete_time tool with the appropriate parameters.
+2;108;  Please delete all entries made for Julia on the My Doctor project.;"[""delete_time(employee: Julia, project: My Doctor)""]";1. To remove all records associated with Julia from the My Doctor project, we can use the delete_time tool with the appropriate parameters.
+2;109;  Please delete all entries made for Dominik on the AI Time project.;"[""delete_time(employee: Dominik, project: AI Time)""]";1. To remove all records associated with Dominik from the AI Time project, we can use the delete_time tool with the appropriate parameters.
+2;110;  Please delete all entries made for Julia on the AI Time project.;"[""delete_time(employee: Julia, project: AI Time)""]";1. To remove all records associated with Julia from the AI Time project, we can use the delete_time tool with the appropriate parameters.
+2;111;  Please delete all entries made for Dominik on the AI Time project.;"[""delete_time(employee: Dominik, project: AI Time)""]";1. To remove all records associated with Dominik from the AI Time project, we can use the delete_time tool with the appropriate parameters.
+2;112;  Please delete all entries made for Julia on the Bachelor Thesis project.;"[""delete_time(employee: Julia, project: Bachelor Thesis)""]";1. To remove all records associated with Julia from the Bachelor Thesis project, we can use the delete_time tool with the appropriate parameters.
+2;113;  Please delete all entries made for Christoph on the AI Time project.;"[""delete_time(employee: Christoph, project: AI Time)""]";1. To remove all records associated with Christoph from the AI Time project, we can use the delete_time tool with the appropriate parameters.
+2;114;  Please delete all entries made for Dominik on the My Doctor project.;"[""delete_time(employee: Dominik, project: My Doctor)""]";1. To remove all records associated with Dominik from the My Doctor project, we can use the delete_time tool with the appropriate parameters.
+2;115;  Please delete all entries made for Julia on the AI Time project.;"[""delete_time(employee: Julia, project: AI Time)""]";1. To remove all records associated with Julia from the AI Time project, we can use the delete_time tool with the appropriate parameters.
+2;116;  Please delete all entries made for Dominik on the My Doctor project.;"[""delete_time(employee: Dominik, project: My Doctor)""]";1. To remove all records associated with Dominik from the My Doctor project, we can use the delete_time tool with the appropriate parameters.
+2;117;  Please delete all entries made for Julia on the Railway App project.;"[""delete_time(employee: Julia, project: Railway App)""]";1. To remove all records associated with Julia from the Railway App project, we can use the delete_time tool with the appropriate parameters.
+2;118;  Please delete all entries made for Julia on the Bachelor Thesis project.;"[""delete_time(employee: Julia, project: Bachelor Thesis)""]";1. To remove all records associated with Julia from the Bachelor Thesis project, we can use the delete_time tool with the appropriate parameters.
+2;119;  Please delete all entries made for Christoph on the My Doctor project.;"[""delete_time(employee: Christoph, project: My Doctor)""]";1. To remove all records associated with Christoph from the My Doctor project, we can use the delete_time tool with the appropriate parameters.
+2;120;  Please delete all entries made for Daniel on the Bachelor Thesis project.;"[""delete_time(employee: Daniel, project: Bachelor Thesis)""]";1. To remove all records associated with Daniel from the Bachelor Thesis project, we can use the delete_time tool with the appropriate parameters.
+2;121;  Please delete all entries made for Dominik on the Railway App project.;"[""delete_time(employee: Dominik, project: Railway App)""]";1. To remove all records associated with Dominik from the Railway App project, we can use the delete_time tool with the appropriate parameters.
+2;122;  Please delete all entries made for employee Daniel on the Bachelor Thesis project.;"[""delete_time(employee: Daniel, project: Bachelor Thesis)""]";1. To remove all records associated with Daniel from the Bachelor Thesis project, we can use the delete_time tool with the appropriate parameters.
+2;123;  Please delete all entries made for Christoph on the AI Time project.;"[""delete_time(employee: Christoph, project: AI Time)""]";1. To remove all records associated with Christoph from the AI Time project, we can use the delete_time tool with the appropriate parameters.
+2;124;  Please delete all entries made for Julia on the AI Time project.;"[""delete_time(employee: Julia, project: AI Time)""]";1. To remove all records associated with Julia from the AI Time project, we can use the delete_time tool with the appropriate parameters.
+2;125;  Please delete all entries made for Christoph on the AI Time project.;"[""delete_time(employee: Christoph, project: AI Time)""]";1. To remove all records associated with Christoph from the AI Time project, we can use the delete_time tool with the appropriate parameters.
+2;126;  Please delete all entries made for Daniel on the My Doctor project.;"[""delete_time(employee: Daniel, project: My Doctor)""]";1. To remove all records associated with Daniel from the My Doctor project, we can use the delete_time tool with the appropriate parameters.
+2;127;  Please delete all entries made for Dominik on the Bachelor Thesis project.;"[""delete_time(employee: Dominik, project: Bachelor Thesis)""]";1. To remove all records associated with Dominik from the Bachelor Thesis project, we can use the delete_time tool with the appropriate parameters.
+2;128;  Please delete all entries made for Christoph on the My Doctor project.;"[""delete_time(employee: Christoph, project: My Doctor)""]";1. To remove all records associated with Christoph from the My Doctor project, we can use the delete_time tool with the appropriate parameters.
+2;129;  Please delete all entries made for Daniel on the My Doctor project.;"[""delete_time(employee: Daniel, project: My Doctor)""]";1. To remove all records associated with Daniel from the My Doctor project, we can use the delete_time tool with the appropriate parameters.
+2;130;  Please delete all entries made for Dominik on the My Doctor project.;"[""delete_time(employee: Dominik, project: My Doctor)""]";1. To remove all records associated with Dominik from the My Doctor project, we can use the delete_time tool with the appropriate parameters.
+2;131;  Please delete all entries made for Dominik on the Railway App project.;"[""delete_time(employee: Dominik, project: Railway App)""]";1. To remove all records associated with Dominik from the Railway App project, we can use the delete_time tool with the appropriate parameters.
+2;132;  Please delete all entries made for Christoph on the Bachelor Thesis project.;"[""delete_time(employee: Christoph, project: Bachelor Thesis)""]";1. To remove all records associated with Christoph from the Bachelor Thesis project, we can use the delete_time tool with the appropriate parameters.
+2;133;  Please delete all entries made for Christoph on the My Doctor project.;"[""delete_time(employee: Christoph, project: My Doctor)""]";1. To remove all records associated with Christoph from the My Doctor project, we can use the delete_time tool with the appropriate parameters.
+2;134;  Please delete all entries made for Christoph on the Railway App project.;"[""delete_time(employee: Christoph, project: Railway App)""]";1. To remove all records associated with Christoph from the Railway App project, we can use the delete_time tool with the appropriate parameters.
+2;135;  Please delete all entries made for Dominik on the My Doctor project.;"[""delete_time(employee: Dominik, project: My Doctor)""]";1. To remove all records associated with Dominik from the My Doctor project, we can use the delete_time tool with the appropriate parameters.
+2;136;  Please delete all entries made for Dominik on the Railway App project.;"[""delete_time(employee: Dominik, project: Railway App)""]";1. To remove all records associated with Dominik from the Railway App project, we can use the delete_time tool with the appropriate parameters.
+2;137;  Please delete all entries made for Daniel on the Bachelor Thesis project.;"[""delete_time(employee: Daniel, project: Bachelor Thesis)""]";1. To remove all records associated with Daniel from the Bachelor Thesis project, we can use the delete_time tool with the appropriate parameters.
+2;138;  Please delete all entries made for Daniel on the AI Time project.;"[""delete_time(employee: Daniel, project: AI Time)""]";1. To remove all records associated with Daniel from the AI Time project, we can use the delete_time tool with the appropriate parameters.
+2;139;  Please delete all entries made for Julia on the Bachelor Thesis project.;"[""delete_time(employee: Julia, project: Bachelor Thesis)""]";1. To remove all records associated with Julia from the Bachelor Thesis project, we can use the delete_time tool with the appropriate parameters.
+2;140;  Please delete all entries made for Christoph on the AI Time project.;"[""delete_time(employee: Christoph, project: AI Time)""]";1. To remove all records associated with Christoph from the AI Time project, we can use the delete_time tool with the appropriate parameters.
+2;141;"  The created user_request would be: ""Please delete all entries made for Julia on the Bachelor Thesis project.""";"[""delete_time(employee: Julia, project: Bachelor Thesis)""]";1. To remove all records associated with Julia from the Bachelor Thesis project, we can use the delete_time tool with the appropriate parameters.
+2;142;  Please delete all entries made for Christoph on the Railway App project.;"[""delete_time(employee: Christoph, project: Railway App)""]";1. To remove all records associated with Christoph from the Railway App project, we can use the delete_time tool with the appropriate parameters.
+2;143;  Please delete all entries made for Daniel on the Bachelor Thesis project.;"[""delete_time(employee: Daniel, project: Bachelor Thesis)""]";1. To remove all records associated with Daniel from the Bachelor Thesis project, we can use the delete_time tool with the appropriate parameters.
+2;144;  Please delete all entries made for Christoph on the My Doctor project.;"[""delete_time(employee: Christoph, project: My Doctor)""]";1. To remove all records associated with Christoph from the My Doctor project, we can use the delete_time tool with the appropriate parameters.
+2;145;  Please delete all entries made for Christoph on the AI Time project.;"[""delete_time(employee: Christoph, project: AI Time)""]";1. To remove all records associated with Christoph from the AI Time project, we can use the delete_time tool with the appropriate parameters.
+2;146;  Please delete all entries made for Dominik on the AI Time project.;"[""delete_time(employee: Dominik, project: AI Time)""]";1. To remove all records associated with Dominik from the AI Time project, we can use the delete_time tool with the appropriate parameters.
+2;147;  Please delete all entries made for Daniel on the Railway App project.;"[""delete_time(employee: Daniel, project: Railway App)""]";1. To remove all records associated with Daniel from the Railway App project, we can use the delete_time tool with the appropriate parameters.
+2;148;  Please delete all entries made for Dominik on the Railway App project.;"[""delete_time(employee: Dominik, project: Railway App)""]";1. To remove all records associated with Dominik from the Railway App project, we can use the delete_time tool with the appropriate parameters.
+2;149;  Please delete all entries made for Julia on the My Doctor project.;"[""delete_time(employee: Julia, project: My Doctor)""]";1. To remove all records associated with Julia from the My Doctor project, we can use the delete_time tool with the appropriate parameters.
+3;150;"  User Request: Conversation of Dominik and Employee2
+
+[Employee2]: How did your day go Dominik?
+[Dominik]: Ahh it was fine. First I worked 8 hours on the My Doctor project. After that I had 8 hours time for the project Railway App. Then I realized that I  need to delete my booking from yesterday. Which was 3 hours on the project Railway App.
+[Employee2]: True, this is always super annoying.";"[""book_time(employee: Dominik, project: My Doctor, time: 8)"",""book_time(employee: Dominik, project: Railway App, time: 8)"",""delete_time(employee: Dominik, project: Railway App, time: 3)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;151;"  [employee1]: How did your day go, Julia?
+[employee2]: Ahh it was fine. First, I worked 1 hour on the Railway App project. After that, I had 1 hour time for the AI Time project. Then I realized that I need to delete my booking from yesterday, which  was 5 hours on the My Doctor project.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Julia, project: Railway App, time: 1)"",""book_time(employee: Julia, project: AI Time, time: 1)"",""delete_time(employee: Julia, project: My Doctor, time: 5)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;152;"  User_request: 
+Conversation between Dominik and employee2:
+
+[employee2]: How did your day go Dominik? 
+[employee1]: Ahh it was fine. First I worked 5 hours on the AI Time project. After that I had 5 hours time for the Railway App project. Then I realised  that I need to delete my booking from yesterday, which was 4 hours on the AI Time project. 
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Dominik, project: AI Time, time: 5)"",""book_time(employee: Dominik, project: Railway App, time: 5)"",""delete_time(employee: Dominik, project: AI Time, time: 4)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;153;"  User Request: 
+
+Conversation between Dominik and [employee2]
+
+[employee2]: How did your day go Dominik?
+[Dominik]: Ahh it was fine. First I worked 5 hours on the Railway App project. After that I had 5 hours time for the Bachelor Thesis project. Then I realized  that I needed to delete my booking from yesterday, which was 3 hours on the AI Time project.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Dominik, project: Railway App, time: 5)"",""book_time(employee: Dominik, project: Bachelor Thesis, time: 5)"",""delete_time(employee: Dominik, project: AI Time, time: 3)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;154;"  Conversation of [Dominik] and [Dominik]
+[Dominik]: How did your day go [Dominik]? [Dominik]: Ahh it was fine. First I worked 1 hours on the Bachelor Thesis project. After that I had 1 hours time for the Railway App project. Then I realised that  I need to delete my booking from yesterday. Which was 2 hours on the AI Time project. [Dominik]: True, this is always super annoying.";"[""book_time(employee: Dominik, project: Bachelor Thesis, time: 1)"",""book_time(employee: Dominik, project: Railway App, time: 1)"",""delete_time(employee: Dominik, project: AI Time, time: 2)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;155;"  User_request: Conversation of Christoph and Employee2
+
+[Employee2]: How did your day go Christoph?
+[Christoph]: Ahh it was fine. First I worked 1 hour on the My Doctor project. After that I had 1 hour time for the AI Time project. Then I realized that I need to  delete my booking from yesterday. Which was 6 hours on the Bachelor Thesis project.
+[Employee2]: True, this is always super annoying.";"[""book_time(employee: Christoph, project: My Doctor, time: 1)"",""book_time(employee: Christoph, project: AI Time, time: 1)"",""delete_time(employee: Christoph, project: Bachelor Thesis, time: 6)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;156;"  Employee Christoph's conversation with another employee can be summarized as:
+[Employee2]: How did your day go Christoph?
+[Christoph]: Ahh it was fine. First I worked 3 hours on the Bachelor Thesis project. After that, I had 3 hours of time for the project AI Time. Then I realized  that I need to delete my booking from yesterday, which was 3 hours on the project AI Time.
+[Employee2]: True, this is always super annoying.";"[""book_time(employee: Christoph, project: Bachelor Thesis, time: 3)"",""book_time(employee: Christoph, project: Bachelor Thesis, time: 3)"",""delete_time(employee: Christoph, project: AI Time, time: 3)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;157;"  Conversation of Daniel and [employee2]
+[employee2]: How did your day go Daniel?
+[Daniel]: Ahh it was fine. First I worked 6 hours on the Bachelor Thesis project. After that, I had 6 hours time for the project My Doctor. Then I realized that I need to delete my  booking from yesterday. Which was 2 hours on the project AI Time.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Daniel, project: Bachelor Thesis, time: 6)"",""book_time(employee: Daniel, project: My Doctor, time: 6)"",""delete_time(employee: Daniel, project: AI Time, time: 2)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;158;"  [employee1] refers to Daniel
+[employee2] refers to the person who is in conversation with Daniel
+
+User Request:
+
+Conversation of Daniel and [employee2]
+
+[employee2]: How did your day go Daniel?
+Daniel: Ahh it was fine. First I worked 2 hours on the Railway App project  . After that I had 2 hours time for the Bachelor Thesis project. Then I realised that I need to delete my booking from yesterday. Which was 2 hours on the project My Doctor.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Daniel, project: Railway App, time: 2)"",""book_time(employee: Daniel, project: Bachelor Thesis, time: 2)"",""delete_time(employee: Daniel, project: My Doctor, time: 2)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;159;"  User_request: Conversation of Julia and [employee2]
+
+[employee2]: How did your day go Julia?
+[Julia]: Ahh it was fine. First I worked 4 hours on the Bachelor Thesis project. After that I had 4 hours time for the AI Time project. Then I realised that I need  to delete my booking from yesterday. Which was 3 hours on the Railway App project.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Julia, project: Bachelor Thesis, time: 4)"",""book_time(employee: Julia, project: AI Time, time: 4)"",""delete_time(employee: Julia, project: Railway App, time: 3)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;160;"  Conversation of Julia and employee2
+[employee2]: How did your day go Julia?
+[Julia]: Ahh it was fine. First I worked 2 hours on the Bachelor Thesis project. After that I had 2 hours time for the project Bachelor Thesis. Then I realized that I need to delete my booking  from yesterday. Which was 2 hours on the project Railway App.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Julia, project: Bachelor Thesis, time: 2)"",""book_time(employee: Julia, project: Bachelor Thesis, time: 2)"",""delete_time(employee: Julia, project: Railway App, time: 2)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;161;"  User_request: ""Conversation of Christoph and [employee2]
+[employee2]: How did your day go Christoph? 
+Christoph: Ahh it was fine. First I worked 5 hours on the Bachelor Thesis project. After that I had 5 hours time for the Railway App project. Then I realised that I  need to delete my booking from yesterday. Which was 7 hours on the My Doctor project. 
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Christoph, project: Bachelor Thesis, time: 5)"",""book_time(employee: Christoph, project: Railway App, time: 5)"",""delete_time(employee: Christoph, project: My Doctor, time: 7)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;162;"  User_request: ""Conversation of Dominik and [employee2]
+[employee2]: How did your day go Dominik?
+Dominik: Ahh it was fine. First I worked 1 hour on the My Doctor project. After that I had 1 hour time for the project My Doctor. Then I realised that  I need to delete my booking from yesterday. Which was 2 hours on the project Railway App.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Dominik, project: My Doctor, time: 1)"",""book_time(employee: Dominik, project: My Doctor, time: 1)"",""delete_time(employee: Dominik, project: Railway App, time: 2)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;163;"  [employee1]: Hey [employee2], my day was alright. I started by working 3 hours on the project ""My Doctor"". Then, I had another 3 hours to allocate to the same project. However, I realized that I made a mistake and needed to delete the booking I made yesterday, which was  4 hours on the project ""My Doctor"". It's always annoying when you have to go back and fix things like that, right?";"[""book_time(employee: Christoph, project: My Doctor, time: 3)"",""book_time(employee: Christoph, project: My Doctor, time: 3)"",""delete_time(employee: Christoph, project: My Doctor, time: 4)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;164;"  [employee1]: How did your day go [employee2]?
+[employee2]: Ahh it was fine. First I worked 6 hours on the Railway App project. After that I had 6 hours time for the My Doctor project. Then I realised that I need to delete my booking from yesterday. Which  was 5 hours on the project Railway App.
+[employee1]: True, this is always super annoying.";"[""book_time(employee: Daniel, project: Railway App, time: 6)"",""book_time(employee: Daniel, project: My Doctor, time: 6)"",""delete_time(employee: Daniel, project: Railway App, time: 5)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;165;"  User_request: Conversation of Christoph and Christoph
+[Christoph]: How did your day go Christoph? 
+[Christoph]: Ahh it was fine. First I worked 3 hours on the My Doctor project. After that I had 3 hours time for the project Bachelor Thesis. Then I realised that I need to  delete my booking from yesterday. Which was 7 hours on the project Railway App.
+[Christoph]: True, this is always super annoying.";"[""book_time(employee: Christoph, project: My Doctor, time: 3)"",""book_time(employee: Christoph, project: Bachelor Thesis, time: 3)"",""delete_time(employee: Christoph, project: Railway App, time: 7)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;166;"  User_request: Conversation between Julia and Employee2
+
+Employee2: How did your day go Julia?
+Julia: Ahh it was fine. First I worked 1 hour on the Railway App project. After that, I had 1 hour of time for the project My Doctor. Then I realized that I need to  delete my booking from yesterday. Which was 1 hour on the project My Doctor.
+Employee2: True, this is always super annoying.";"[""book_time(employee: Julia, project: Railway App, time: 1)"",""book_time(employee: Julia, project: My Doctor, time: 1)"",""delete_time(employee: Julia, project: My Doctor, time: 1)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;167;"  User_request: 
+
+Conversation of Dominik and Employee2
+[Employee2]: How did your day go Dominik?
+[Dominik]: Ahh it was fine. First I worked 5 hours on the Railway App project. After that I had 5 hours time for the project Railway App. Then I realised that  I need to delete my booking from yesterday, which was 8 hours on the AI Time project.
+[Employee2]: True, this is always super annoying.";"[""book_time(employee: Dominik, project: Railway App, time: 5)"",""book_time(employee: Dominik, project: Railway App, time: 5)"",""delete_time(employee: Dominik, project: AI Time, time: 8)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;168;"  [employee1]: How did your day go [employee2]?
+[employee2]: Ahh it was fine. First I worked 2 hours on the Railway App project. After that I had 2 hours time for the project AI Time. Then I realised that I need to delete my booking from yesterday. Which  was 8 hours on the project Railway App. 
+
+[employee1]: True, deleting bookings can be such a hassle sometimes.";"[""book_time(employee: Dominik, project: Railway App, time: 2)"",""book_time(employee: Dominik, project: AI Time, time: 2)"",""delete_time(employee: Dominik, project: Railway App, time: 8)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;169;"  User request: Conversation of Dominik and [employee2]
+[employee2]: How did your day go Dominik?
+[Dominik]: Ahh it was fine. First I worked 7 hours on the Railway App project. After that I had 7 hours time for the project AI Time. Then I realised that  I need to delete my booking from yesterday. Which was 3 hours on the project Bachelor Thesis.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Dominik, project: Railway App, time: 7)"",""book_time(employee: Dominik, project: AI Time, time: 7)"",""delete_time(employee: Dominik, project: Bachelor Thesis, time: 3)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;170;"  User Request: Conversation of Christoph and [employee2]
+
+[employee2]: How did your day go Christoph?
+Christoph: Ahh it was fine. First I worked 2 hours on the Bachelor Thesis project. After that, I had 2 hours for the project My Doctor. Then I realized that I need to  delete my booking from yesterday, which was 7 hours on the project Railway App.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Christoph, project: Bachelor Thesis, time: 2)"",""book_time(employee: Christoph, project: My Doctor, time: 2)"",""delete_time(employee: Christoph, project: Railway App, time: 7)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;171;"  User_request: Conversation between Daniel and Employee
+
+[Employee]: How did your day go Daniel?
+[Daniel]: Ahh it was fine. First I worked 4 hours on the AI Time project. After that, I had 4 hours time for the project Bachelor Thesis. Then I realized that I need to delete my  booking from yesterday. Which was 4 hours on the project Bachelor Thesis.
+[Employee]: True, this is always super annoying.";"[""book_time(employee: Daniel, project: AI Time, time: 4)"",""book_time(employee: Daniel, project: Bachelor Thesis, time: 4)"",""delete_time(employee: Daniel, project: Bachelor Thesis, time: 4)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;172;"  Conversation of Daniel and [employee2]
+[employee2]: How did your day go Daniel? 
+Daniel: Ahh it was fine. First I worked 6 hours on the AI Time project. After that I had 6 hours time for the project Bachelor Thesis. Then I realised that I need to delete my booking  from yesterday. Which was 1 hour on the project My Doctor. 
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Daniel, project: AI Time, time: 6)"",""book_time(employee: Daniel, project: Bachelor Thesis, time: 6)"",""delete_time(employee: Daniel, project: My Doctor, time: 1)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;173;"  User request: 
+
+Conversation of Daniel and employee2 
+
+[employee2]: How did your day go Daniel? 
+[Daniel]: Ahh it was fine. First I worked 7 hours on the My Doctor project. After that I had 7 hours time for the project Railway App. Then I realised that I need  to delete my booking from yesterday. Which was 8 hours on the project AI Time. 
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Daniel, project: My Doctor, time: 7)"",""book_time(employee: Daniel, project: Railway App, time: 7)"",""delete_time(employee: Daniel, project: AI Time, time: 8)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;174;"  User_request: Conversation of [Dominik] and [employee2]
+
+[employee2]: How did your day go [Dominik]?
+[Dominik]: Ahh it was fine. First I worked 7 hours on the Railway App project. After that I had 7 hours time for the project My Doctor.  Then I realized that I need to delete my booking from yesterday, which was 4 hours on the project Railway App.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Dominik, project: Railway App, time: 7)"",""book_time(employee: Dominik, project: My Doctor, time: 7)"",""delete_time(employee: Dominik, project: Railway App, time: 4)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;175;"  Conversation of [Julia] and [Julia]
+[Julia]: How did your day go [Julia]? 
+[Julia]: Ahh it was fine. First I worked 2 hours on the Railway App project. After that I had 2 hours time for the project Bachelor Thesis. Then I realised  that I need to delete my booking from yesterday. Which was 6 hours on the project Bachelor Thesis. 
+[Julia]: True, this is always super annoying.";"[""book_time(employee: Julia, project: Railway App, time: 2)"",""book_time(employee: Julia, project: Bachelor Thesis, time: 2)"",""delete_time(employee: Julia, project: Bachelor Thesis, time: 6)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;176;"  User Request:
+
+Conversation of Christoph and [Employee2]
+[Employee2]: How did your day go Christoph?
+Christoph: Ahh it was fine. First I worked 5 hours on the Railway App project. After that, I had 5 hours time for the project AI Time. Then I realized that I need  to delete my booking from yesterday, which was 4 hours on the project Bachelor Thesis.
+[Employee2]: True, this is always super annoying.";"[""book_time(employee: Christoph, project: Railway App, time: 5)"",""book_time(employee: Christoph, project: AI Time, time: 5)"",""delete_time(employee: Christoph, project: Bachelor Thesis, time: 4)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;177;"  Conversation of [Julia] and [Julia]
+[Julia]: How did your day go [Julia]?
+[Julia]: Ahh it was fine. First I worked 5 hours on the Railway App project. After that I had 5 hours time for the project Bachelor Thesis. Then I realized  that I need to delete my booking from yesterday. Which was 7 hours on the project AI Time.
+[Julia]: True, this is always super annoying.";"[""book_time(employee: Julia, project: Railway App, time: 5)"",""book_time(employee: Julia, project: Bachelor Thesis, time: 5)"",""delete_time(employee: Julia, project: AI Time, time: 7)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;178;"  User_request: Conversation of Daniel and [employee2]
+[employee2]: How did your day go Daniel? 
+[Daniel]: Ahh it was fine. First I worked 5 hours on the Bachelor Thesis project. After that I had 5 hours time for the Railway App project. Then I realised that I need  to delete my booking from yesterday. Which was 8 hours on the AI Time project.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Daniel, project: Bachelor Thesis, time: 5)"",""book_time(employee: Daniel, project: Railway App, time: 5)"",""delete_time(employee: Daniel, project: AI Time, time: 8)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;179;"  [employee1]: How did your day go [employee2]?
+[employee2]: Ahh it was fine. First I worked 3 hours on the AI Time project. After that I had 3 hours time for the project Railway App. Then I realised that I need to delete my booking from yesterday. Which  was 6 hours on the project Railway App.
+[employee1]: True, this is always super annoying.";"[""book_time(employee: Dominik, project: AI Time, time: 3)"",""book_time(employee: Dominik, project: Railway App, time: 3)"",""delete_time(employee: Dominik, project: Railway App, time: 6)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;180;"  Conversation of Julia and [employee2]
+[employee2]: How did your day go Julia?
+[Julia]: Ahh it was fine. First I worked 2 hours on the My Doctor project. After that I had 2 hours time for the project My Doctor. Then I realised that I need to delete my  booking from yesterday. Which was 1 hour on the project Bachelor Thesis.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Julia, project: My Doctor, time: 2)"",""book_time(employee: Julia, project: My Doctor, time: 2)"",""delete_time(employee: Julia, project: Bachelor Thesis, time: 1)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;181;"  User request: Conversation of Dominik and employee2
+
+[employee2]: How did your day go Dominik?
+[Dominik]: Ahh it was fine. First I worked 6 hours on the Railway App project. After that I had 6 hours time for the project Railway App. Then I realised that I  need to delete my booking from yesterday. Which was 1 hour on the project AI Time.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Dominik, project: Railway App, time: 6)"",""book_time(employee: Dominik, project: Railway App, time: 6)"",""delete_time(employee: Dominik, project: AI Time, time: 1)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;182;"  Conversation of [Christoph] and [Christoph]
+[Christoph]: How did your day go [Christoph]?
+[Christoph]: Ahh it was fine. First I worked 4 hours on the Railway App project. After that I had 4 hours time for the project Railway App. Then I realised  that I need to delete my booking from yesterday. Which was 8 hours on the project AI Time.
+[Christoph]: True, this is always super annoying.";"[""book_time(employee: Christoph, project: Railway App, time: 4)"",""book_time(employee: Christoph, project: Railway App, time: 4)"",""delete_time(employee: Christoph, project: AI Time, time: 8)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;183;"  User_request: Conversation of Daniel and [employee2]
+[employee2]: How did your day go Daniel?
+[Daniel]: Ahh it was fine. First I worked 5 hours on the My Doctor project. After that I had 5 hours time for the project My Doctor. Then I realised that I need to  delete my booking from yesterday. Which was 8 hours on the project AI Time.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Daniel, project: My Doctor, time: 5)"",""book_time(employee: Daniel, project: My Doctor, time: 5)"",""delete_time(employee: Daniel, project: AI Time, time: 8)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;184;"  user_request = ""Conversation of Dominik and _____""
+employee2 = ""employee2""
+employee1 = ""Dominik""
+time1 = ""2""
+time2 = ""2""
+time3 = ""2""
+project1 = ""Railway App""
+project2 = ""AI Time""
+project3 = ""Railway  App""
+
+user_request = ""Conversation of Dominik and employee2""";"[""book_time(employee: Dominik, project: Railway App, time: 2)"",""book_time(employee: Dominik, project: Railway App, time: 2)"",""delete_time(employee: Dominik, project: AI Time, time: 2)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;185;"  Conversation of Julia and AI Assistant
+[AI Assistant]: How did your day go Julia?
+[Julia]: Ahh it was fine. First, I worked 1 hour on the My Doctor project. After that, I had 1 hour time for the project AI Time. Then I realized that I need to delete  my booking from yesterday. Which was 7 hours on the project AI Time.
+[AI Assistant]: True, this is always super annoying.";"[""book_time(employee: Julia, project: My Doctor, time: 1)"",""book_time(employee: Julia, project: AI Time, time: 1)"",""delete_time(employee: Julia, project: AI Time, time: 7)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;186;"  [employee1]: How did your day go [employee2]?
+[employee2]: Ahh it was fine. First I worked 3 hours on the Bachelor Thesis project. After that I had 3 hours time for the project Bachelor Thesis. Then I realised that I need to delete my booking from yesterday. Which  was 4 hours on the project My Doctor.
+[employee1]: True, deleting bookings can be really annoying sometimes.";"[""book_time(employee: Christoph, project: Bachelor Thesis, time: 3)"",""book_time(employee: Christoph, project: Bachelor Thesis, time: 3)"",""delete_time(employee: Christoph, project: My Doctor, time: 4)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;187;"  User request: ""Conversation of Daniel and [employee2]""
+
+[employee2]: How did your day go Daniel?
+[Daniel]: Ahh it was fine. First I worked 2 hours on the Bachelor Thesis project. After that, I had 2 hours of time for the Railway App project. Then I realized  that I need to delete my booking from yesterday, which was 2 hours on the My Doctor project.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Daniel, project: Bachelor Thesis, time: 2)"",""book_time(employee: Daniel, project: Railway App, time: 2)"",""delete_time(employee: Daniel, project: My Doctor, time: 2)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;188;"  [employee1]: How did your day go [employee2]?
+[employee2]: Ahh it was fine. First I worked 2 hours on the My Doctor project. After that I had 2 hours time for the project AI Time. Then I realised that I need to delete my booking from yesterday. Which  was 1 hour on the project AI Time.";"[""book_time(employee: Daniel, project: My Doctor, time: 2)"",""book_time(employee: Daniel, project: AI Time, time: 2)"",""delete_time(employee: Daniel, project: AI Time, time: 1)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;189;"  [employee1]: How did your day go [employee2]? 
+[employee2]: Ahh it was fine. First I worked 7 hours on the AI Time project. After that I had 7 hours time for the project My Doctor. Then I realised that I need to delete my booking from yesterday. Which  was 2 hours on the project Railway App. [employee1]: True, this is always super annoying.";"[""book_time(employee: Julia, project: AI Time, time: 7)"",""book_time(employee: Julia, project: My Doctor, time: 7)"",""delete_time(employee: Julia, project: Railway App, time: 2)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;190;"  User_request: Conversation of Dominik and employee2
+
+[employee2]: How did your day go Dominik?
+[employee1]: Ahh it was fine. First I worked 6 hours on the Railway App project. After that I had 6 hours time for the project Bachelor Thesis. Then I realised that I  need to delete my booking from yesterday. Which was 7 hours on the AI Time project.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Dominik, project: Railway App, time: 6)"",""book_time(employee: Dominik, project: Bachelor Thesis, time: 6)"",""delete_time(employee: Dominik, project: AI Time, time: 7)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;191;"  User_request: Conversation of Daniel and Employee2
+
+Employee2: How did your day go Daniel?
+Daniel: Ahh it was fine. First I worked 6 hours on the AI Time project. After that, I had 6 hours of time for the project My Doctor. Then I realized that I need to delete  my booking from yesterday, which was 5 hours on the project My Doctor.
+Employee2: True, this is always super annoying.";"[""book_time(employee: Daniel, project: AI Time, time: 6)"",""book_time(employee: Daniel, project: My Doctor, time: 6)"",""delete_time(employee: Daniel, project: My Doctor, time: 5)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;192;"  User_request: Conversation of Christoph and employee2
+[employee2]: How did your day go Christoph? 
+[Christoph]: Ahh it was fine. First I worked 6 hours on the My Doctor project. After that I had 6 hours time for the project Railway App. Then I realised that I need  to delete my booking from yesterday. Which was 5 hours on the project AI Time.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Christoph, project: My Doctor, time: 6)"",""book_time(employee: Christoph, project: Railway App, time: 6)"",""delete_time(employee: Christoph, project: AI Time, time: 5)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;193;"  [employee1]: How did your day go [employee2]?
+
+[employee2]: Ahh it was fine. First I worked 2 hours on the Railway App project. After that, I had 2 hours of time for another project. Then I realized that I need to delete my booking from yesterday, which  was 8 hours on the Railway App project.
+
+[employee1]: True, deleting bookings can be really frustrating.
+
+[employee2]: Yeah, it always messes up the schedule. How was the rest of your day?
+
+[employee1]: After deleting the booking, I had some free time to work on a personal  project. Overall, it was a productive day. How about yours?";"[""book_time(employee: Julia, project: Railway App, time: 2)"",""book_time(employee: Julia, project: Railway App, time: 2)"",""delete_time(employee: Julia, project: Railway App, time: 8)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;194;"  [employee1]: How did your day go [employee2]?
+[employee2]: Ahh it was fine. First I worked 1 hour on the Railway App project. After that I had 1 hour time for the project My Doctor. Then I realised that I need to delete my booking from yesterday. Which  was 6 hours on the project Railway App.
+[employee1]: True, deleting bookings can be frustrating sometimes.";"[""book_time(employee: Dominik, project: Railway App, time: 1)"",""book_time(employee: Dominik, project: My Doctor, time: 1)"",""delete_time(employee: Dominik, project: Railway App, time: 6)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;195;"  User request: Conversation of Dominik and [employee2]
+[employee2]: How did your day go Dominik?
+[Dominik]: Ahh it was fine. First I worked 3 hours on the Bachelor Thesis project. After that I had 3 hours time for the AI Time project. Then I realised that  I need to delete my booking from yesterday, which was 1 hour on the Railway App project.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Dominik, project: Bachelor Thesis, time: 3)"",""book_time(employee: Dominik, project: AI Time, time: 3)"",""delete_time(employee: Dominik, project: Railway App, time: 1)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;196;"  User_request: 
+Conversation of Daniel and employee2
+
+[employee2]: How did your day go Daniel? 
+[Daniel]: Ahh it was fine. First I worked 3 hours on the Bachelor Thesis project. After that I had 3 hours time for the project Railway App. Then I realised that I need  to delete my booking from yesterday. Which was 6 hours on the project Bachelor Thesis.
+
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Daniel, project: Bachelor Thesis, time: 3)"",""book_time(employee: Daniel, project: Railway App, time: 3)"",""delete_time(employee: Daniel, project: Bachelor Thesis, time: 6)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;197;"  User_request: Conversation of Daniel and AI Time
+
+[Daniel]: How did your day go AI Time?
+[AI Time]: Ahh it was fine. First I worked 5 hours on the Bachelor Thesis project. After that I had 5 hours time for the project AI Time. Then I realized that I need to  delete my booking from yesterday. Which was 1 hour on the project Bachelor Thesis.
+[AI Time]: True, this is always super annoying.";"[""book_time(employee: Daniel, project: Bachelor Thesis, time: 5)"",""book_time(employee: Daniel, project: AI Time, time: 5)"",""delete_time(employee: Daniel, project: Bachelor Thesis, time: 1)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;198;"  User_request: Conversation of [Dominik] and [employee2]
+[employee2]: How did your day go [Dominik]? 
+[Dominik]: Ahh it was fine. First I worked 3 hours on the Railway App project. After that I had 3 hours time for the project My Doctor.  Then I realised that I need to delete my booking from yesterday. Which was 1 hour on the project My Doctor. 
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Dominik, project: Railway App, time: 3)"",""book_time(employee: Dominik, project: My Doctor, time: 3)"",""delete_time(employee: Dominik, project: My Doctor, time: 1)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 
+3;199;"  User_request: ""Conversation of Christoph and [employee2]""
+[employee2]: How did your day go Christoph?
+Christoph: Ahh it was fine. First I worked 3 hours on the Bachelor Thesis project. After that, I had 3 hours time for the Railway App project. Then I realized that I  need to delete my booking from yesterday, which was 7 hours on the My Doctor project.
+[employee2]: True, this is always super annoying.";"[""book_time(employee: Christoph, project: Bachelor Thesis, time: 3)"",""book_time(employee: Christoph, project: Railway App, time: 3)"",""delete_time(employee: Christoph, project: My Doctor, time: 7)""]";1. Given the dialog I will need to perform 3 actions, 2 bookings and one deletion. 

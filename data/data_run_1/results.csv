@@ -1,0 +1,85 @@
+Use_case_id,Test_data_id,Correct,Optional,Action_solution,Endpoint,Name,Project,Time
+0,0,True,False,"{'endpoint': 'book_time', 'employee': 'Daniel', 'project': 'AI Time', 'time': '8'}",True,True,True,True
+0,1,True,False,"{'endpoint': 'book_time', 'employee': 'Julia', 'project': 'AI Time', 'time': '7'}",True,True,True,True
+0,2,True,False,"{'endpoint': 'book_time', 'employee': 'Daniel', 'project': 'Railway App', 'time': '3'}",True,True,True,True
+0,3,False,False,"{'endpoint': 'book_time', 'employee': 'Julia', 'project': 'MyDoctor', 'time': '2'}",True,True,False,True
+0,3,False,False,"[{'endpoint': 'book_time', 'employee': 'Julia', 'project': 'My Doctor', 'time': '2'}]",False,False,False,False
+0,4,True,False,"{'endpoint': 'book_time', 'employee': 'Julia', 'project': 'My Doctor', 'time': '4'}",True,True,True,True
+0,5,True,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'My Doctor', 'time': '4'}",True,True,True,True
+0,5,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'My Doctor', 'time': '4'}",True,True,True,True
+0,6,True,False,"{'endpoint': 'book_time', 'employee': 'Dominik', 'project': 'Railway App', 'time': '5'}",True,True,True,True
+0,7,True,False,"{'endpoint': 'book_time', 'employee': 'Julia', 'project': 'My Doctor', 'time': '5'}",True,True,True,True
+0,8,False,True,"{'endpoint': 'read_time', 'employee': 'Dominik'}",False,True,True,True
+0,8,False,False,"{'endpoint': 'book_time', 'employee': 'Dominik', 'project': 'BachelorThesis', 'time': '1'}",True,True,False,True
+0,8,False,False,"[{'endpoint': 'book_time', 'employee': 'Dominik', 'project': 'Bachelor Thesis', 'time': '1'}]",False,False,False,False
+0,9,True,False,"{'endpoint': 'book_time', 'employee': 'Julia', 'project': 'Bachelor Thesis', 'time': '4'}",True,True,True,True
+0,10,True,False,"{'endpoint': 'book_time', 'employee': 'Dominik', 'project': 'Railway App', 'time': '8'}",True,True,True,True
+0,11,True,False,"{'endpoint': 'book_time', 'employee': 'Daniel', 'project': 'AI Time', 'time': '7'}",True,True,True,True
+0,12,True,False,"{'endpoint': 'book_time', 'employee': 'Dominik', 'project': 'Railway App', 'time': '4'}",True,True,True,True
+0,13,False,False,"{'endpoint': 'book_time', 'employee': 'Julia', 'project': 'MyDoctor', 'time': '7'}",True,True,False,True
+0,13,False,False,"[{'endpoint': 'book_time', 'employee': 'Julia', 'project': 'My Doctor', 'time': '7'}]",False,False,False,False
+0,14,True,False,"{'endpoint': 'book_time', 'employee': 'Julia', 'project': 'Railway App', 'time': '8'}",True,True,True,True
+0,15,True,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,15,False,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+0,16,True,False,"{'endpoint': 'book_time', 'employee': 'Julia', 'project': 'AI Time', 'time': '1'}",True,True,True,True
+0,17,False,True,"{'endpoint': 'read_time', 'employee': 'Daniel'}",False,True,True,True
+0,17,False,False,"[{'endpoint': 'book_time', 'employee': 'Daniel', 'project': 'Railway App', 'time': '8'}]",False,False,False,False
+0,18,True,False,"{'endpoint': 'book_time', 'employee': 'Christoph', 'project': 'AI Time', 'time': '4'}",True,True,True,True
+1,19,True,False,"{'endpoint': 'read_time', 'employee': 'Julia'}",True,True,True,True
+1,19,True,False,"{'endpoint': 'book_time', 'employee': 'Julia', 'project': 'Bachelor Thesis', 'time': '4'}",True,True,True,True
+1,20,True,False,"{'endpoint': 'read_time', 'employee': 'Julia'}",True,True,True,True
+1,20,True,False,"{'endpoint': 'book_time', 'employee': 'Julia', 'project': 'My Doctor', 'time': '1'}",True,True,True,True
+1,20,False,False,"{'endpoint': 'book_time', 'employee': 'Julia', 'project': 'My Doctor', 'time': '1'}",True,True,True,True
+1,21,True,False,"{'endpoint': 'read_time', 'employee': 'Daniel'}",True,True,True,True
+1,21,True,False,"{'endpoint': 'book_time', 'employee': 'Daniel', 'project': 'Bachelor Thesis', 'time': '1'}",True,True,True,True
+1,22,True,False,"{'endpoint': 'read_time', 'employee': 'Daniel'}",True,True,True,True
+1,22,False,False,"[{'endpoint': 'book_time', 'employee': 'Daniel', 'project': 'AI Time', 'time': '5'}]",False,False,False,False
+1,23,True,False,"{'endpoint': 'read_time', 'employee': 'Daniel'}",True,True,True,True
+1,23,False,False,"{'endpoint': 'book_time', 'employee': 'Daniel', 'project': 'Bachelor Thesis', 'time': '8'}",True,True,False,False
+1,23,False,False,"[{'endpoint': 'book_time', 'employee': 'Daniel', 'project': 'Railway App', 'time': '1'}]",False,False,False,False
+1,24,True,False,"{'endpoint': 'read_time', 'employee': 'Dominik'}",True,True,True,True
+1,24,True,False,"{'endpoint': 'book_time', 'employee': 'Dominik', 'project': 'Bachelor Thesis', 'time': '8'}",True,True,True,True
+1,25,True,False,"{'endpoint': 'read_time', 'employee': 'Daniel'}",True,True,True,True
+1,25,True,False,"{'endpoint': 'book_time', 'employee': 'Daniel', 'project': 'Bachelor Thesis', 'time': '4'}",True,True,True,True
+1,26,True,False,"{'endpoint': 'read_time', 'employee': 'Daniel'}",True,True,True,True
+1,26,False,False,"{'endpoint': 'book_time', 'employee': 'Daniel', 'project': 'Bachelor Thesis', 'time': '8'}",True,True,False,False
+1,26,True,False,"{'endpoint': 'book_time', 'employee': 'Daniel', 'project': 'AI Time', 'time': '6'}",True,True,True,True
+1,27,True,False,"{'endpoint': 'read_time', 'employee': 'Daniel'}",True,True,True,True
+1,27,True,False,"{'endpoint': 'book_time', 'employee': 'Daniel', 'project': 'AI Time', 'time': '8'}",True,True,True,True
+1,28,True,False,"{'endpoint': 'read_time', 'employee': 'Dominik'}",True,True,True,True
+1,28,True,False,"{'endpoint': 'book_time', 'employee': 'Dominik', 'project': 'AI Time', 'time': '1'}",True,True,True,True
+1,28,False,False,"{'endpoint': 'book_time', 'employee': 'Dominik', 'project': 'AI Time', 'time': '1'}",True,True,True,True
+1,29,True,False,"{'endpoint': 'read_time', 'employee': 'Daniel'}",True,True,True,True
+1,29,False,False,"{'endpoint': 'book_time', 'employee': 'Daniel', 'project': 'Bachelor Thesis', 'time': '8'}",True,True,False,False
+1,29,False,False,"[{'endpoint': 'book_time', 'employee': 'Daniel', 'project': 'My Doctor', 'time': '1'}]",False,False,False,False
+1,30,True,False,"{'endpoint': 'read_time', 'employee': 'Julia'}",True,True,True,True
+1,30,False,True,"{'endpoint': 'read_time', 'employee': 'Julia'}",False,True,True,True
+1,30,False,False,"[{'endpoint': 'book_time', 'employee': 'Julia', 'project': 'Bachelor Thesis', 'time': '6'}]",False,False,False,False
+1,31,False,False,"[{'endpoint': 'read_time', 'employee': 'Julia'}]",False,False,False,False
+1,32,True,False,"{'endpoint': 'read_time', 'employee': 'Daniel'}",True,True,True,True
+1,32,True,False,"{'endpoint': 'book_time', 'employee': 'Daniel', 'project': 'Bachelor Thesis', 'time': '7'}",True,True,True,True

@@ -1,0 +1,7 @@
+Prompt;Reasoning;Actions;Use_case_id
+Please book Hans 8 hours on the project Microsoft.;"1. To allocate [time] hours for [employee] on the Microsoft project, we need to book the time in the local booking database.
+2. The request to book [time] hours for Hans on the [project] project in the local booking database was successful.";"[""book_time(employee: Hans, project: Microsoft, time: 8)""]";0
+Check all booking for Hans. After that Please book Hans 8 hours on the project Microsoft.;"1. To retrieve all bookings made by [employee], we can use the read_time tool with [employee] as the employee parameter. Then, we can allocate [time] hours for [employee] on the Microsoft project using the book_time tool.
+2. To allocate [time] hours for [employee] on the Microsoft project, we need to book the time in the local booking database";"[""read_time(employee: Hans)"",""book_time(employee: Hans, project: Microsoft, time: 8)""]";1
+Please delete all entries made for Hans on the Bachelor Thesis project.;"1. To delete all bookings made by [employee], we can use the delete_time tool with [employee] as the employee parameter.
+";"[""delete_time(employee: Hans, project: Bachelor Thesis)""]";2

@@ -1,0 +1,8 @@
+Flask~=2.3.2
+openpyxl~=3.1.2
+pandas~=2.0.3
+requests~=2.31.0
+langchain~=0.0.229
+lmql~=0.7b2
+PyGithub~=1.59.0
+openai~=0.27.8
